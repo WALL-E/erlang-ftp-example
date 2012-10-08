@@ -44,4 +44,4 @@ publish(File, Dir, Pid) ->
 
 
 main() ->
-    webput:publish("127.0.0.1","ftp","ftp@123", "/root/t","/pub").
+    ftptools:publish("127.0.0.1","ftp","ftp@123", "/root/t","/pub").
